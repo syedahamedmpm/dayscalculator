@@ -156,3 +156,61 @@ input[type='number'] {
 .btn:disabled {
   background: #f2f2f2;
 }
+
+
+
+body {
+  /* Keep full-screen background */
+  min-height: 100vh;
+  background-image: 
+    radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, transparent 44%),
+    radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, transparent 52%),
+    radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, transparent 64%),
+    radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, transparent 98%),
+    radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, transparent 23%),
+    radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, transparent 26%),
+    radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, transparent 75%),
+    radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, transparent 55%),
+    radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, transparent 76%),
+    linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+
+  /* Make sure it fills the viewport */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* 📱 On mobile, simplify or shift gradients */
+@media (max-width: 768px) {
+  body {
+    background-image: 
+      radial-gradient(circle at 40% 60%, hsla(329,0%,99%,0.08) 0%, transparent 50%),
+      radial-gradient(circle at 70% 80%, hsla(329,0%,99%,0.08) 0%, transparent 60%),
+      linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+  }
+  .container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+}
+
+/* 📱 Extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-image: 
+      radial-gradient(circle at 50% 50%, hsla(329,0%,99%,0.1) 0%, transparent 60%),
+      linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+  }
+  .container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+}

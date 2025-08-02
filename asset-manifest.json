@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dayscalculator/static/css/main.bf04ae09.css",
+    "main.css": "/dayscalculator/static/css/main.47ef6782.css",
     "main.js": "/dayscalculator/static/js/main.434c0c0d.js",
     "static/js/453.57c430a1.chunk.js": "/dayscalculator/static/js/453.57c430a1.chunk.js",
     "index.html": "/dayscalculator/index.html",
-    "main.bf04ae09.css.map": "/dayscalculator/static/css/main.bf04ae09.css.map",
+    "main.47ef6782.css.map": "/dayscalculator/static/css/main.47ef6782.css.map",
     "main.434c0c0d.js.map": "/dayscalculator/static/js/main.434c0c0d.js.map",
     "453.57c430a1.chunk.js.map": "/dayscalculator/static/js/453.57c430a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf04ae09.css",
+    "static/css/main.47ef6782.css",
     "static/js/main.434c0c0d.js"
   ]
 }
